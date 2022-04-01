@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <unistd.h>
+
 
 int checkme(char *buf) {
   if(buf[0] == 'b' && buf[1] == 'u' && buf[2] == 'g'){
